@@ -8,8 +8,18 @@ namespace PresentationWebApp.Controllers
 {
     public class ContactController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index()//right click on Index to create view
         {
+            return View();
+        }
+        public IActionResult HandleQuery(string query)
+        {
+            //proces query submitted from the index
+            if (string.IsNullOrEmpty(query) == false)
+            {
+                ViewBag.Message = "Thanks for your query";
+                    //pass data from the controller to the view
+            }
             return View();
         }
     }

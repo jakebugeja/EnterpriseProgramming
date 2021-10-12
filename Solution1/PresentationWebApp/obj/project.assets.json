@@ -8950,11 +8950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bugej\\OneDrive - Malta College of Arts, Science & Technology\\2021-2022 REPEATING\\ENTERPRISE PROGRAMMING\\git\\Solution1\\PresentationWebApp\\PresentationWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\bugej\\OneDrive - Malta College of Arts, Science & Technology\\2021-2022 REPEATING\\ENTERPRISE PROGRAMMING\\github\\Solution1\\PresentationWebApp\\PresentationWebApp.csproj",
       "projectName": "PresentationWebApp",
-      "projectPath": "C:\\Users\\bugej\\OneDrive - Malta College of Arts, Science & Technology\\2021-2022 REPEATING\\ENTERPRISE PROGRAMMING\\git\\Solution1\\PresentationWebApp\\PresentationWebApp.csproj",
+      "projectPath": "C:\\Users\\bugej\\OneDrive - Malta College of Arts, Science & Technology\\2021-2022 REPEATING\\ENTERPRISE PROGRAMMING\\github\\Solution1\\PresentationWebApp\\PresentationWebApp.csproj",
       "packagesPath": "C:\\Users\\bugej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bugej\\OneDrive - Malta College of Arts, Science & Technology\\2021-2022 REPEATING\\ENTERPRISE PROGRAMMING\\git\\Solution1\\PresentationWebApp\\obj\\",
+      "outputPath": "C:\\Users\\bugej\\OneDrive - Malta College of Arts, Science & Technology\\2021-2022 REPEATING\\ENTERPRISE PROGRAMMING\\github\\Solution1\\PresentationWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
