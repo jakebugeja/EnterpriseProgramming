@@ -20,7 +20,7 @@ namespace PresentationWebApp.Controllers
                 ViewBag.Message = "Thanks for your query";
                     //pass data from the controller to the view
             }
-            //
+            ////
             return View();
         }
     }
