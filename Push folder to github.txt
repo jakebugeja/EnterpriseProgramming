@@ -1,3 +1,0 @@
-$ git init -->this will create a folder .git to initialise git extension
-(optional) git status -->git will print the files and documents with tracked changes
-git add . --> commit files
