@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DataAcess
+namespace Application
 {
     public class Class1
     {

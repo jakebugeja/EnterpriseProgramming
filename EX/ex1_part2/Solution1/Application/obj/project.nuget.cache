@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uHsQdpsYU+mwaIQlIoN+mIkXr6cDGEyFt7n4tiPYLO1jnGU4eQmTe7pMDvqMyrod+N6sYd1jQFdfNootcqi0MQ==",
+  "dgSpecHash": "on4uchrFRqUz7VPDdbDSj42OkvAjrsLlK+Rw1MmTiaehIhIasHvPLP37Ps6Lj6RLmB0HrGHfZ1hek37lN4ziJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\EX\\ex1_part2\\Solution1\\Class1\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\EX\\ex1_part2\\Solution1\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bugej\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\bugej\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

@@ -8,7 +8,7 @@ namespace Domain.Models
 {
     //fields are normally private
     //properties are often public
-    class Blog
+    public class Blog
     {
         //[Key ctrl+.] --> this will generate:using System.ComponentModel.DataAnnotations;
         [Key]//Primary Key making also the property an identity (auto increment)
