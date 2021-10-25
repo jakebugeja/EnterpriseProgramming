@@ -1,0 +1,7 @@
+Add Migration:
+add-migration "Initial_Migration" -context 'DataAccess/Context/'Context'"
+	Context.cs:
+	The context class is used to query or save data to the database.
+
+update-database -context 'DataAccess/Context/'Context'
+	
