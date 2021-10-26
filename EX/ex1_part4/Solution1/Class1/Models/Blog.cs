@@ -14,7 +14,7 @@ namespace Domain.Models
         [Key]//Primary Key making also the property an identity (auto increment)
         public int Id { get; set; }
         //name is required
-        [Required]
+        [Required] 
         public int Name { get; set; }
         public int LogoImagePath { get; set; }
         public DateTime DateCreated{ get; set; }
