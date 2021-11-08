@@ -1,0 +1,2 @@
+1st command only if you have changed something in the models: add-migration "Migration" -context BloggingContext
+2nd command update-database -context BloggingContext

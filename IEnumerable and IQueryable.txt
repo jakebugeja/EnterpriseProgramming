@@ -1,0 +1,7 @@
+IEnumerable and IQueryable 
+
+IEnumerable -->  beneficial for LINQ to Object and LINQ to XML queries.
+IQueryable  -->  beneficial for LINQ to SQL queries.
+
+IEnumerable is suitable for querying data from in-memory collections like List, Array and so on.
+IQueryable is suitable for querying data from out-memory (like remote database, service) collections.
