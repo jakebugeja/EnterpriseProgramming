@@ -1,0 +1,42 @@
+lesson 1 - 3
+1. Create MVC project
+
+2. Add Libraries Folders;
+	Application,
+	Data,
+	Domain,
+	IOC
+
+3. Add new project (c# class library.net core) to every single library
+
+4. Add the models (models are the tables with their properties)
+
+5. Add ApplicatoinDbContext (dbContext) class path: DataAccess/Context/[ApplicatoinDbContext];
+	class includes:
+	public ApplicatoinDbContext(DbContextOptions<ApplicatoinDbContext> options) 
+            : base(options)
+        {
+        }
+	//declare a property for every model
+        public DbSet<TEntity> TEntities{ get; set; }
+
+6. In StartUp.cs --> add services
+services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
+
+7. In Package Manager Console, run : migrations
+
+8. Add Repository class: 
+--> Repositories genereally includes CRUD methods, class will utilise dbcontext to utilise functions such as; 
+	context.[TEntity].add/remove(object class), context.savechanges, etc..
+Path: DataAccess/ Repositories/ [ClassRepository]
+
+9. [Optional] Add service class (extra layer of functionality from Repository class):
+example: Customer requersting service from waiter,
+	methods include; getItemFromTable(), payItemsFromTable()
+Path: Application/Services/[ClassService.cs] 
+
+9. In Startup class, add Transient/ Scoped/ Singleton methods to each service created
+--> Inside ConfigureServices()
+	services.[method]<[Service/Repository Interface],[Service/Repository Class]>();
