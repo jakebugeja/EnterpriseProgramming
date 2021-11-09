@@ -9007,26 +9007,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bugej\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\bugej\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\PresentationWebApp\\PresentationWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\bugej\\Documents\\LocalGitProjects\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\PresentationWebApp\\PresentationWebApp.csproj",
       "projectName": "PresentationWebApp",
-      "projectPath": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\PresentationWebApp\\PresentationWebApp.csproj",
+      "projectPath": "C:\\Users\\bugej\\Documents\\LocalGitProjects\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\PresentationWebApp\\PresentationWebApp.csproj",
       "packagesPath": "C:\\Users\\bugej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\PresentationWebApp\\obj\\",
+      "outputPath": "C:\\Users\\bugej\\Documents\\LocalGitProjects\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\PresentationWebApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\bugej\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9038,10 +9031,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\Application\\Application.csproj"
+            "C:\\Users\\bugej\\Documents\\LocalGitProjects\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\bugej\\Documents\\LocalGitProjects\\EnterpriseProgramming\\EX\\ex1_part5\\Solution1\\Application\\Application.csproj"
             }
           }
         }
@@ -9054,7 +9046,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -9113,7 +9104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
