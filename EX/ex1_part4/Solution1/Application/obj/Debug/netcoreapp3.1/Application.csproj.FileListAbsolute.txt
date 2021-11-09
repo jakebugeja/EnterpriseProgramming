@@ -28,3 +28,16 @@ C:\Users\bugej\Documents\LocalGitProject\EnterpriseProgramming\EX\ex1_part4\Solu
 C:\Users\bugej\Documents\LocalGitProject\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 C:\Users\bugej\Documents\LocalGitProject\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\bugej\Documents\LocalGitProject\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.pdb
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\bin\Debug\netcoreapp3.1\DataAcess.dll
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\bin\Debug\netcoreapp3.1\DataAcess.pdb
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.dll
+C:\Users\bugej\Documents\LocalGitProjects\EnterpriseProgramming\EX\ex1_part4\Solution1\Application\obj\Debug\netcoreapp3.1\Application.pdb
