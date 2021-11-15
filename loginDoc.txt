@@ -1,0 +1,14 @@
+implement login
+
+ApplicationDbContext -->default context
+[app]DbContext --> created context
+
+change inhert from DbContext to IdentityDBConext (inside the [app]DbContext class)
+
+remove ApplicationDbContext from services.AddDbContext
+	inside services.AddDefaultIdentity> change to [app]DbContext
+
+[right click on presentation]>build
+
+Note: install Microsoft.Extenstions.Hosting
+package manager console> add-migration "AuthenticantionIntegration" -context[space][tab]
