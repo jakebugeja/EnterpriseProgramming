@@ -11,14 +11,13 @@ lesson 1 - 3
 
 4. Add the models (models are the tables with their properties)
 
-5. Add ApplicatoinDbContext (dbContext) class path: DataAccess/Context/[ApplicatoinDbContext];
-	class includes:
-	public ApplicatoinDbContext(DbContextOptions<ApplicatoinDbContext> options) 
-            : base(options)
-        {
-        }
-	//declare a property for every model
-        public DbSet<TEntity> TEntities{ get; set; }
+5. Add DbContext inside: Data/Context/[DbContext];
+	
+        a.inherit DbContext
+	b.add constructor:public BloggingContext(DbContextOptions<BloggingContext>options)://this is a contructor
+            base(options)                                //options is passed to the base class
+        {}
+	c.add getters and setters:public DbSet<Blog> Blogs { get; set; }
 
 6. In StartUp.cs --> add services
 services.AddDbContext<ApplicationDbContext>(options =>

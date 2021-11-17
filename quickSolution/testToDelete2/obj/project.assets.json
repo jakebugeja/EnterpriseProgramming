@@ -5705,11 +5705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bugej\\Desktop\\EP\\testToDelete2\\testToDelete2\\testToDelete2.csproj",
+      "projectUniqueName": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\quickSolution\\testToDelete2\\testToDelete2.csproj",
       "projectName": "testToDelete2",
-      "projectPath": "C:\\Users\\bugej\\Desktop\\EP\\testToDelete2\\testToDelete2\\testToDelete2.csproj",
+      "projectPath": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\quickSolution\\testToDelete2\\testToDelete2.csproj",
       "packagesPath": "C:\\Users\\bugej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bugej\\Desktop\\EP\\testToDelete2\\testToDelete2\\obj\\",
+      "outputPath": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\quickSolution\\testToDelete2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

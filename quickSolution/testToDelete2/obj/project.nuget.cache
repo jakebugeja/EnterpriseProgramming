@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hoSh4PGTP03GuNwfh5jQ/PVnK2hipEC22Brz2MysVq7qWkMlwVpZOrqrE3dIan5f8VCXYn4ygnGCtf6sBfoOfw==",
+  "dgSpecHash": "hvhTTEtcEcHX6CBxS+lJPBwxUOany5KkBIbiebmvvNtjj2N/iHdxiesoYQSkm5QfclI5/7UqRM3auNAB50R+Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bugej\\Desktop\\EP\\testToDelete2\\testToDelete2\\testToDelete2.csproj",
+  "projectFilePath": "C:\\Users\\bugej\\Documents\\LocalGitProject\\EnterpriseProgramming\\quickSolution\\testToDelete2\\testToDelete2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bugej\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.18\\microsoft.aspnetcore.cryptography.internal.3.1.18.nupkg.sha512",
     "C:\\Users\\bugej\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.18\\microsoft.aspnetcore.cryptography.keyderivation.3.1.18.nupkg.sha512",
