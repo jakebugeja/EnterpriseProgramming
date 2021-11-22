@@ -1,15 +1,16 @@
 lesson 1 - 3
+NOTE: INSTALL DEPENDENCIES AND ADD TO EVERY SINGLE PROJECT [CHECKBOX]
+
 1. Create MVC project
 
 2. Add Libraries Folders;
 	Application,
 	Data,
-	Domain,
-	IOC
+	Domain
 
 3. Add new project (c# class library.net core) to every single library
 
-4. Add the models (models are the tables with their properties)
+4. Add the models (models are the tables with their properties) inside: Domain
 
 5. Add DbContext inside: Data/Context/[DbContext];
 	
