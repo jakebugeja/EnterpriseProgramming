@@ -3,16 +3,14 @@ NOTE: INSTALL DEPENDENCIES AND ADD TO EVERY SINGLE PROJECT [CHECKBOX]
 
 1. Create MVC project
 
-2. Add Libraries Folders;
+2. Add new project (c# class library.net core) to every single library
 	Application,
 	Data,
 	Domain
 
-3. Add new project (c# class library.net core) to every single library
+3. Add the models (models are the tables with their properties) inside: Domain
 
-4. Add the models (models are the tables with their properties) inside: Domain
-
-5. Add DbContext inside: Data/Context/[DbContext];
+4. Add DbContext inside: Data/Context/[DbContext];
 	
         a.inherit DbContext
 	b.add constructor:public BloggingContext(DbContextOptions<BloggingContext>options)://this is a contructor
@@ -20,23 +18,28 @@ NOTE: INSTALL DEPENDENCIES AND ADD TO EVERY SINGLE PROJECT [CHECKBOX]
         {}
 	c.add getters and setters:public DbSet<Blog> Blogs { get; set; }
 
-6. In StartUp.cs --> add services
+5. In StartUp.cs --> add services
 services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
-7. In Package Manager Console, run : migrations
+6. In Package Manager Console, run : migrations
 
-8. Add Repository class: 
+7. Add IRepository (interface) class: 
+-->The interface only includes the CRUD methods
+
+8. Add Repository class and inherit repository to implement methods:
 --> Repositories genereally includes CRUD methods, class will utilise dbcontext to utilise functions such as; 
 	context.[TEntity].add/remove(object class), context.savechanges, etc..
 Path: DataAccess/ Repositories/ [ClassRepository]
 
-9. [Optional] Add service class (extra layer of functionality from Repository class):
+9.0 [Optional] Add Interface If one is implementing services inside Application/Interfaces
+
+9.1 [Optional] Add service class (extra layer of functionality from Repository class, Bussiness Layer)
+	inside Application/Services:
 example: Customer requersting service from waiter,
 	methods include; getItemFromTable(), payItemsFromTable()
-Path: Application/Services/[ClassService.cs] 
 
-9. In Startup class, add Transient/ Scoped/ Singleton methods to each service created
+10. In Startup class, add Transient/ Scoped/ Singleton methods to each service created
 --> Inside ConfigureServices()
 	services.[method]<[Service/Repository Interface],[Service/Repository Class]>();
