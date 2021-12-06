@@ -33,9 +33,9 @@ services.AddDbContext<ApplicationDbContext>(options =>
 	context.[TEntity].add/remove(object class), context.savechanges, etc..
 Path: DataAccess/ Repositories/ [ClassRepository]
 
-9.0 [Optional] Add Interface If one is implementing services inside Application/Interfaces
+9.0 [Optional] Add Interface of Sevice, (extra layer of functionality from Repository class, Bussiness Layer) inside Application/Interfaces
 
-9.1 [Optional] Add service class (extra layer of functionality from Repository class, Bussiness Layer)
+9.1 [Optional] Add service class 
 	inside Application/Services:
 example: Customer requersting service from waiter,
 	methods include; getItemFromTable(), payItemsFromTable()
@@ -43,3 +43,5 @@ example: Customer requersting service from waiter,
 10. In Startup class, add Transient/ Scoped/ Singleton methods to each service created
 --> Inside ConfigureServices()
 	services.[method]<[Service/Repository Interface],[Service/Repository Class]>();
+
+11. Add Controller, to implement the services and to pass them to the View, inside Controllers
