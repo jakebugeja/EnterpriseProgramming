@@ -1,0 +1,33 @@
+
+        //to place in EmailService
+        //public void SendSimpleMessage(AddFormViewModel model)
+        //{
+        //retrieve data from View,
+        //data passed to the controller as a AddFormViewModel
+
+        //log into
+        /*
+        string emailAddress = model.EmailFrom;
+        string password = model.Password;
+        MimeMessage message = new MimeMessage();
+
+        //sender
+        message.From.Add(new MailboxAddress("TestingEmail", model.EmailFrom));
+        //for testing: entersprise.mail.test@gmail.com
+        //to
+        message.To.Add(MailboxAddress.Parse(model.EmailTo));
+
+        message.Subject = model.Title;
+
+        message.Body = new TextPart("plain")
+        {
+            Text = model.Message,//should include file in url
+        };
+
+        SmtpClient client = new SmtpClient();
+        client.Connect("smtp.gmail.com", 465, true);
+        client.Authenticate(emailAddress, password);
+        client.Send(message);
+        client.Disconnect(true);
+        client.Dispose();
+        */

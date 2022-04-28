@@ -1,0 +1,3 @@
+domain: entersprise.mail.test
+
+password: entersprise.mail.test.123

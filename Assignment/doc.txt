@@ -1,0 +1,13 @@
+File Transfer Application
+
+a.uploading a file and storing that file in a folder on the webserver/cloud bucket [x]
+
+b.converting file to a url link							   []
+
+b. recipient recieves an email with the file link (not the file attachment)	   []
+
+c. lazy loading : lesson 14 47:00
+
+d. host website
+
+Part 2 log properties: message, ip address, user, errors, file (1 interface 2 repositories) [x]

@@ -1,4 +1,4 @@
 Implement login
 
-Go To>Transferring applicationDbContexgt to newDbContext Doc
-remove Migrations files from PresentationLayer>Data
+lesson 12 - 0:00 - 6:00
+https://mcastedu.sharepoint.com/sites/IT-SWD-6.2A-ITSFT-506-2011EnterpriseProgramming/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FIT%2DSWD%2D6%2E2A%2DITSFT%2D506%2D2011EnterpriseProgramming%2FShared%20Documents%2FGeneral%2FRecordings%2FLesson%2012%2D20211129%5F081906%2DMeeting%20Recording%2Emp4&parent=%2Fsites%2FIT%2DSWD%2D6%2E2A%2DITSFT%2D506%2D2011EnterpriseProgramming%2FShared%20Documents%2FGeneral%2FRecordings

@@ -1,4 +1,4 @@
-Transferring applicationDbContexgt to newDbContext
+Transferring applicationDbContext to newDbContext
 
 ApplicationDbContext -->default context
 [app]DbContext --> created context
